@@ -16,9 +16,26 @@ body {
     margin: 2%;
 }
 
-#picture {
+header {
     width: 20%;
+    margin: auto;
     text-align: center;
+}
+
+.frame {
+    border: 1px dashed #c8c8c8;
+    padding: 2% 2%;
+    width: 40%;
+    display: inline-block;
+    margin: auto;
+}
+
+#picture {
+    text-align: center;
+}
+
+img {
+    width: 30%;
 }
 
 #picture img {
@@ -31,7 +48,7 @@ h1, h2, h3 {
 
 li {
     list-style: none;
-    margin: 1% 0;
+    margin: 2% 0;
 }
 
 form {
@@ -41,14 +58,10 @@ form {
 input, textarea {
     display: block;
     padding: .5vh 1vw;
+    margin: 2% 0;
 }
 
-.frame {
-    border: 1px dashed #c8c8c8;
-    padding: 2% 2%;
-    width: 49%;
-    display: inline-block;
-}
+
 
 /* scope */
 .scope {
@@ -91,7 +104,6 @@ input, textarea {
 
 span {
     display: inline-block;
-    width: 15%;
+    width: 17%;
     text-align: right;
 }
-
