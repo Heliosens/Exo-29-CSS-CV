@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+#container {
+    margin: 2%;
+}
+
+#picture {
+    width: 20%;
+    text-align: center;
+}
+
+#picture img {
+    width: 80%;
+}
+
+h1, h2, h3 {
+    background: #a8c5f8;
+}
+
+li {
+    list-style: none;
+    margin: 1% 0;
+}
+
+form {
+    padding: 2vh 1vw;
+}
+
+input, textarea {
+    display: block;
+    padding: .5vh 1vw;
+}
+
+.frame {
+    border: 1px dashed #c8c8c8;
+    padding: 2% 2%;
+    width: 49%;
+    display: inline-block;
+}
+
+/* scope */
+.scope {
+    display: inline-block;
+    width: 20%;
+    border: 1px solid blue;
+    margin-left: 2%;
+}
+
+.scope div {
+    background: lightseagreen;
+    height: 1.5vh;
+}
+
+#word, #tinker, #html {
+    width: 80%;
+}
+
+#excel, #power, #css {
+    width: 70%;
+}
+
+#gimp, #inkscape, #jScript {
+    width: 65%;
+}
+
+#fusion, #gitH {
+    width: 50%;
+}
+
+#pStorm, #jQuery {
+    width: 45%;
+}
+
+#php, #sql {
+    width: 40%;
+}
+
+/*end scope*/
+
+span {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+}
+
