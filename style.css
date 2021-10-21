@@ -17,30 +17,47 @@ body {
 }
 
 header {
-    width: 20%;
-    margin: auto;
+    border: 3px #a8c5f8 solid;
+    background: #a8c5f8;
+}
+
+header > div {
+    /*vertical-align: top;*/
+}
+
+.name, #picture, .half, .frame, .scope {
+    display: inline-block;
+}
+
+.name {
+    width: 79%;
+    vertical-align: top;
+    padding-top: 3%;
+}
+
+.half {
+    width: 49%;
     text-align: center;
+    vertical-align: top;
 }
 
 .frame {
     border: 1px dashed #c8c8c8;
     padding: 2% 2%;
     width: 40%;
-    display: inline-block;
-    margin: auto;
+    background: grey;
 }
 
 #picture {
-    text-align: center;
+    width: 20%;
+    text-align: right;
+    background: #a8c5f8;
 }
 
 img {
-    width: 30%;
+    width: 50%;
 }
 
-#picture img {
-    width: 80%;
-}
 
 h1, h2, h3 {
     background: #a8c5f8;
@@ -61,23 +78,26 @@ input, textarea {
     margin: 2% 0;
 }
 
-
-
 /* scope */
 .scope {
-    display: inline-block;
     width: 20%;
     border: 1px solid blue;
     margin-left: 2%;
+    background: #c8c8c8;
 }
 
 .scope div {
     background: lightseagreen;
     height: 1.5vh;
+    border-right: 1px blue solid;
 }
 
 #word, #tinker, #html {
     width: 80%;
+}
+
+#html {
+    width: 75%;
 }
 
 #excel, #power, #css {
