@@ -21,6 +21,7 @@ body {
     background: lightseagreen;
     width: 30%;
     display: inline-block;
+    vertical-align: top;
 }
 
 .name {
@@ -32,7 +33,6 @@ body {
     background: #18555d;
 }
 
-
 #picture {
     /*width: 40%;*/
 }
@@ -43,10 +43,7 @@ img {
 
 h2 {
     background: lightseagreen;
-}
-
-h3 {
-    background: #a8c5f8;
+    margin: 10px 0;
 }
 
 li {
@@ -129,9 +126,14 @@ li {
 }
 
 .hobbies {
-    width: 19%;
+    width: 50%;
     display: inline-block;
     vertical-align: top;
+}
+
+ul {
+    background: #95dfe7;
+    padding: 2px;
 }
 
 input, textarea {
@@ -139,5 +141,4 @@ input, textarea {
     padding: .5vh 1vw;
     margin: 2% 0;
 }
-
 
